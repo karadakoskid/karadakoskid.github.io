@@ -1,0 +1,507 @@
+
+body{
+   margin-right: 60px;
+    margin-left: 60px;
+
+}
+ul{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -200px;
+
+}
+ul>li{
+    display: inline;
+    padding: 15px;
+}
+ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria;
+}
+#logo{
+
+    position: relative;
+    top: -50px;
+}
+#logo>img{
+    height: 250px;
+    width: 250px;
+
+}
+#dk{
+
+}
+#dk > p{
+    font-family: Cambria;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -160px;
+    line-height: 50px;
+    color: #efecec;
+    font-size: 80px;
+
+}
+#kvadrat{
+
+    position: relative;
+    top: -200px;
+    background-color: #363434;
+    height: 550px;
+    width: 1400px;
+    border-radius: 20px;
+
+}
+#bio>img{
+position: relative;
+    top: -50px;
+}
+#biografija{
+    text-transform: uppercase;
+    font-family: Arial;
+    color: darkgrey;
+    font-size: 23px;
+    position: relative;
+    top: -503px;
+    right: -49px;
+    font-weight: lighter;
+}
+#biotekst1{
+    width: 355px;
+    font-family: Cambria;
+    font-weight: bold;
+    color: #5c5757;
+    position: relative;
+    top: -510px;
+    right: -510px;
+
+}
+#biotekst2{
+    width: 355px;
+    font-family: Cambria;
+    font-weight: bold;
+    color: #5c5757;
+    position: relative;
+    top: -445px;
+    right: -510px;
+}
+#biotekst3{
+    width: 355px;
+    font-family: Cambria;
+    font-weight: bold;
+    color: #5c5757;
+    position: relative;
+    top: -862px;
+    right: -1000px;
+}
+#biotekst4{
+    width: 355px;
+    font-family: Cambria;
+    font-weight: bold;
+    color: #5c5757;
+    position: relative;
+    top: -793px;
+    right: -1000px;
+
+}
+#education{
+    text-transform: uppercase;
+    font-family: Arial;
+    color: lightgrey;
+    font-size: 23px;
+    position: relative;
+    top: 44px;
+    right: -49px;
+    font-weight: lighter;
+}
+#kvadratedu{
+   position: relative;
+    top: -680px;
+   background-color: #363434;
+   height: 450px;
+  width: 1400px;
+    border-radius: 20px;
+}
+#gridedu{
+    display: grid;
+    grid-template-columns: 320px 350px 350px;
+   justify-content: center;
+    position: absolute;
+    right: 70px;
+    top: 120px;
+}
+#gridedu1>p1{
+color: #efecec;
+    font-size: 20px;
+    font-family: Cambria;
+
+}
+#gridedu1>hr{
+    width: 200px;
+    position: relative;
+    left: -115px;
+
+}
+#gridedu1>p2{
+     color: #efecec;
+     font-family: Cambria;
+     font-weight: lighter;
+     position: relative;
+     bottom: -50px;
+     left: -118px;
+     font-size: 30px;
+    display: flex;
+    text-align: center;
+ }
+#gridedu2>p1{
+    color: #efecec;
+    font-size: 20px;
+    font-family: Cambria;
+}
+#gridedu2>p2{
+    color: #efecec;
+    font-family: Cambria;
+    font-weight: lighter;
+    position: relative;
+    bottom: -50px;
+    left: -129px;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+}
+#gridedu2>hr{
+    width: 200px;
+    position: relative;
+    left: -129px;
+}
+#gridedu3>p1{
+    color: #efecec;
+    font-size: 20px;
+    font-family: Cambria;
+    position: relative;
+    right: -22px;
+}
+#gridedu3>p2{
+    color: #efecec;
+    font-family: Cambria;
+    font-weight: lighter;
+    position: relative;
+    bottom: -50px;
+    left: -125px;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+}
+#gridedu3>hr{
+    width: 200px;
+    position: relative;
+    left: -129px;
+}
+#skillls{
+    text-transform: uppercase;
+    font-family: Arial;
+    color: darkgrey;
+    font-size: 23px;
+    position: relative;
+    top: -648px;
+    right: -49px;
+}
+.gridskills{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    color: grey;
+    grid-column-gap: 110px;
+    position: absolute;  /*relativ*/
+    top: 1940px;
+    left: 145px;
+
+
+}
+.skil .icon{
+    font-size: 30px;
+    line-height: 80px;
+    position: relative;
+    z-index: 10;
+    transition: color 0.5s;
+
+}
+
+.skil {
+
+    border: 1px solid #f0f0f1;
+    height: 280px;
+    width: 170px;
+    border-radius: 85px;
+    background-color: #f0f0f1;
+    position: relative;
+    overflow: hidden;
+    /*box-shadow: 0 0 20px 10px rgba(0,0,0,0.05);*/
+    margin: 0 30px;
+
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -50px;
+
+}
+.skil::after{
+    content: '';
+    height: 280px;
+    width:170px;
+    top: -280px;
+    border-radius: 85px;
+    left: 0;
+    position: absolute;
+    background: linear-gradient(-45deg,#ed1c94,#ffec17);
+    transition: 0.5s;
+}
+.skil:hover::after{
+    top: 0px;
+}
+
+.posto{
+    font-family: Arial;
+    color: black;
+    font-size: 38px;
+    position: relative;
+    top: -126px;
+    right: -84px;
+}
+.ime{
+    color: #5c5757;
+    font-family: Cambria;
+    font-size: 25px;
+    position: relative;
+    top: -117px;
+    right: -51px;
+}
+body > div.skils > div.gridskills > p:nth-child(7){
+    position: relative;
+    right: -84px;
+}
+body > div.skils > div.gridskills > p:nth-child(9){
+    position: relative;
+    right: -86px;
+}
+body > div.skils > div.gridskills > p:nth-child(12){
+    position: relative;
+    right: -84px;
+}
+body > div.skils > div.gridskills > p:nth-child(14) {
+    position: relative;
+    right: -90px;
+}
+body > div.skils > div.gridskills > p:nth-child(15){
+    position: relative;
+    right: -83px;
+}
+body > div.skils > div.gridskills > p:nth-child(16){
+    position: relative;
+    right: -104px;
+}
+body > div.skils > div.gridskills > p:nth-child(17){
+    position: relative;
+    right: -96px;
+}
+body > div.skils > div.gridskills > p:nth-child(18){
+    position: relative;
+    right: -63px;
+}
+#kvadrattravel{
+     position: relative;
+     top: -150px;
+     background-color: #363434;
+     height: 600px;
+     width: 1400px;
+     border-radius: 20px;
+ }
+#travel{
+    height: 50px;
+}
+#trave{
+    text-transform: uppercase;
+    font-family: Arial;
+    color: lightgrey;
+    font-size: 23px;
+    position: relative;
+    top: 50px;
+    right: -49px;
+}
+.continier {
+    width: 350px;
+    height: 400px;
+    position: relative;
+    bottom: -79px;
+    right: -30px;
+}
+.continier:hover > .card{
+     cursor: pointer;
+     transform: rotateY(180deg);
+ }
+.card{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.front,
+.back{
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.front{
+
+    background-image: url("Sliki/Dubrovnik.jpg");
+    background-size: 350px 400px;
+    transform-style: preserve-3d;
+}
+.back{
+    background-color: #efecec;
+    transform: rotateY(180deg);
+}
+#dubrovnik{
+    display: flex;
+    justify-content: center;
+    color: #363434;
+    font-family: Cambria;
+}
+#tekstdubrvnik{
+    text-align: center;
+    font-family: Cambria;
+    color: grey;
+}
+
+.continier2 {
+    width: 350px;
+    height: 400px;
+    position: relative;
+    bottom: 621px;
+    right: -526px;
+}
+.continier2:hover > .card{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.front2,
+.back2{
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.front2{
+    background-image: url("Sliki/Perest.jpg");
+    background-size: 350px 400px;
+    transform-style: preserve-3d;
+}
+.back2{
+    background-color: #efecec;
+    transform: rotateY(180deg);
+}
+#perest{
+    display: flex;
+    justify-content: center;
+    color: #363434;
+    font-family: Cambria;
+}
+#tekstperest{
+    text-align: center;
+    font-family: Cambria;
+    color: grey;
+}
+.continier3 {
+    width: 350px;
+    height: 400px;
+    position: relative;
+    top: -71px;
+    right: -1019px;
+}
+.continier3:hover > .card{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.front3,
+.back3{
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.front3{
+    background-image: url("Sliki/Solun.jpg");
+    background-size: 350px 400px;
+    transform-style: preserve-3d;
+}
+.back3{
+    background-color: #efecec;
+    transform: rotateY(180deg);
+}
+#solun{
+    display: flex;
+    justify-content: center;
+    color: #363434;
+    font-family: Cambria;
+}
+#tekstsolun{
+    text-align: center;
+    font-family: Cambria;
+    color: grey;
+}
+
+
+.conctactgrid{
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+.iconcontact{
+    position: relative;
+    top: -20px;
+    right: -630px;
+}
+#contact > div > div > a{
+    position: relative;
+    top: -39px;
+    left: -2px;
+    color: transparent;
+    font-size: 18px;
+}
+#contact2{
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-family: Arial;
+    color: darkgrey;
+    font-size: 23px;
+    position: relative;
+    top: -941px;
+    right: -619px;
+}
+.iconig{
+    position: relative;
+    top: -20px;
+    right: -610px;
+}
+#contact{
+    height: 100px;
+
+}
+.contact1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-family: Arial;
+    color: darkgrey;
+    font-size: 23px;
+}
